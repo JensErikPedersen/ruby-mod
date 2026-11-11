@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ruby_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rubymod:ruby_ore"
+					}
+				]
+			}
+		},
+		"has_deepslate_ruby_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rubymod:deepslate_ruby_ore"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "rubymod:ruby_from_smelting"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ruby_ore",
+			"has_deepslate_ruby_ore",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"rubymod:ruby_from_smelting"
+		]
+	}
+}

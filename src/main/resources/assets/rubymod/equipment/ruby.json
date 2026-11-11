@@ -1,0 +1,10 @@
+{
+	"layers": {
+		"humanoid": [
+			{ "texture": "rubymod:ruby" }
+		],
+		"humanoid_leggings": [
+			{ "texture": "rubymod:ruby" }
+		]
+	}
+}

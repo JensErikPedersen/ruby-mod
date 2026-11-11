@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "rubymod",
+	"version": "${version}",
+	"name": "Ruby Mod",
+	"description": "Tilføjer rubiner, rubinmalm, en rubinblok samt rubin-værktøj, -våben og -rustning til Minecraft.",
+	"authors": ["Jens"],
+	"license": "MIT",
+	"icon": "assets/rubymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dk.jens.rubymod.RubyMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

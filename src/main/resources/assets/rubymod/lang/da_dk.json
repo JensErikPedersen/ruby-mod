@@ -1,0 +1,16 @@
+{
+	"block.rubymod.ruby_block": "Rubinblok",
+	"block.rubymod.ruby_ore": "Rubinmalm",
+	"block.rubymod.deepslate_ruby_ore": "Dybskifer-rubinmalm",
+	"item.rubymod.ruby": "Rubin",
+	"item.rubymod.ruby_sword": "Rubinsværd",
+	"item.rubymod.ruby_pickaxe": "Rubinhakke",
+	"item.rubymod.ruby_axe": "Rubinøkse",
+	"item.rubymod.ruby_shovel": "Rubinskovl",
+	"item.rubymod.ruby_hoe": "Rubinlugejern",
+	"item.rubymod.ruby_helmet": "Rubinhjelm",
+	"item.rubymod.ruby_chestplate": "Rubinbrystplade",
+	"item.rubymod.ruby_leggings": "Rubinbukser",
+	"item.rubymod.ruby_boots": "Rubinstøvler",
+	"item.rubymod.ruby_spear": "Rubinspyd"
+}

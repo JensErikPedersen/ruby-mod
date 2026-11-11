@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_ruby": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "rubymod:ruby"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "rubymod:ruby_leggings"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_ruby",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"rubymod:ruby_leggings"
+		]
+	}
+}
